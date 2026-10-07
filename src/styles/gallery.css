@@ -1,0 +1,6 @@
+.gallery { display: grid; gap: 16px; }
+.gallery__main { width: 100%; max-height: 520px; object-fit: cover; border-radius: 10px; background: var(--badge); }
+.gallery__thumbs { display: flex; flex-wrap: wrap; gap: 12px; }
+.thumb { padding: 0; border: 2px solid transparent; border-radius: 10px; overflow: hidden; background: none; }
+.thumb img { width: 140px; height: 108px; object-fit: cover; }
+.thumb--active { border-color: var(--button); }

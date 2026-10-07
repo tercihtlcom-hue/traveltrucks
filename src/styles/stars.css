@@ -1,0 +1,3 @@
+.stars { display: inline-flex; gap: 2px; }
+.star { width: 16px; height: 16px; fill: var(--badge); vertical-align: -2px; }
+.star--on { fill: var(--star); }

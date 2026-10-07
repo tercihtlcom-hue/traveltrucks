@@ -1,0 +1,26 @@
+.booking {
+  position: sticky;
+  top: calc(var(--header-height) + 24px);
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.booking__title { font-size: 20px; font-weight: 600; color: var(--main); }
+.booking__text { margin: 4px 0 24px; }
+.booking__form { display: grid; gap: 16px; }
+.field input, .field textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: var(--input);
+  resize: vertical;
+}
+.field input:focus, .field textarea:focus { border-color: var(--button); outline: none; }
+.field--error input { border-color: var(--error); background: #fff1f1; }
+.field__error { margin-top: 6px; font-size: 14px; color: var(--error); }
+.booking__submit { justify-self: center; }
+
+@media (max-width: 960px) {
+  .booking { position: static; }
+}

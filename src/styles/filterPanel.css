@@ -1,0 +1,28 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  background: #f7f7f7;
+  border-radius: var(--radius);
+}
+.filters__label, .filters__heading { font-weight: 500; color: var(--text); }
+.filters__heading { margin-bottom: -8px; font-weight: 600; font-size: 18px; color: var(--main); }
+.filters__group { display: flex; flex-direction: column; gap: 8px; }
+.filters__input {
+  padding: 16px 20px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: var(--white);
+}
+.filters__input:focus { border-color: var(--button); outline: none; }
+.filters__fieldset { display: grid; gap: 14px; border: 0; min-width: 0; }
+.filters__legend {
+  width: 100%;
+  padding: 0 0 12px;
+  margin-bottom: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--border);
+}
+.filters__option { display: flex; align-items: center; gap: 12px; color: var(--main); font-weight: 500; cursor: pointer; }
+.filters__option input { width: 20px; height: 20px; margin: 0; accent-color: var(--button); cursor: pointer; }

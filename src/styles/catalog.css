@@ -1,0 +1,17 @@
+.catalog {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  gap: 48px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  align-items: start;
+}
+.catalog__sidebar { position: sticky; top: calc(var(--header-height) + 24px); }
+.catalog__list { display: grid; gap: 32px; }
+.catalog__more { display: flex; margin: 40px auto 0; }
+
+@media (max-width: 960px) {
+  .container { padding: 0 24px; }
+  .catalog { grid-template-columns: 1fr; }
+  .catalog__sidebar { position: static; }
+}
