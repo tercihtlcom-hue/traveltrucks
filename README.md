@@ -2,7 +2,6 @@
 
 Web application for a camper rental company. Browse the catalog, filter campers, save favorites, read reviews and send a booking request.
 
-**Live demo:** https://CANLI-SITE-LINKIN.vercel.app
 
 ## Features
 
@@ -40,4 +39,3 @@ Other scripts: `npm run build`, `npm run preview`, `npm run lint`.
 
 ## Author
 
-ADIN SOYADIN — https://github.com/GITHUB_KULLANICI_ADIN
