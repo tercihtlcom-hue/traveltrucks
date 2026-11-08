@@ -38,4 +38,5 @@ Other scripts: `npm run build`, `npm run preview`, `npm run lint`.
 | `/catalog/:id` | Camper details |
 
 ## Author
+22
 
